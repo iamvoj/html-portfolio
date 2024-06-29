@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Miriam Libre", sans-serif;
+    color: white; /* Text color for the entire page */
+    background-color: black; /* Fallback background color */
+}
+
+header {
+    padding: 20px;
+    color: black; /* Text color for the header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1, p {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    /* font-weight: bold; */
+    text-shadow: black;
+    
+
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Place the background behind other content */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between tabs as needed */
+}
+
+nav ul li a {
+    color: white; /* Adjust link color as needed */
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: green;
+}
+
+nav ul li a:hover{
+    color: rgb(99, 190, 228);
+
+}
+
+.honk-font {
+    font-family: "Honk", sans-serif;
+    font-size: 50px;
+}
+
+.sMedia {
+    text-align: center;
+    margin-top: 50px; /* Adjust the top margin as needed */
+    margin-right: 50px;
+}
+
+.sMedia a {
+    display: inline-block;
+    margin: 0 50px; /* Adjust the horizontal spacing between icons */
+    font-size: 36px; /* Adjust the size of the icons */
+    color: white; /* Adjust the icon color */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.sMedia a:hover {
+    color: rgb(16, 15, 15); /* Change color to bright pink on hover */
+}
+#video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: brightness(50%); /* Apply brightness filter to darken the video */
+}
+.image-container {
+    text-align: center; /* Center the image */
+    margin: 20px 0; /* Add some space around the image */
+}
+.image-container img {
+    max-width: 50%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #000; /* Optional: Add a border */
+}
+.resume-link {
+    text-align: center; /* Center the link */
+    margin: 20px 0; /* Add some space around the link */
+}
+
+.resume-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.resume-link a:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
